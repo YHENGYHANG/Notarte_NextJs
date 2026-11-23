@@ -1,10 +1,19 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-4xl font-bold">Hi, I am Hubagatiya-uy</h1>
+    <nav className="flex min-h-screen flex-col items-center justify-between p-60"> 
+      {/* <main className="flex min-h-screen flex-col items-center justify-between p-24"></main> */}
+      <h1 className="text-4xl font-bold">Hi, I am Realm Kindred C. Notarte</h1>
       <p className="mt-2">
-        This is the home page of your Next.js application.
+         I am Realm Kindred C. Notarte. I am taken.
       </p>
-    </main>
+
+      <Link href="/projects" className="mt-4 inline-block underline">
+        See my projects
+      </Link>
+    </nav>
   );
 }
+
+
